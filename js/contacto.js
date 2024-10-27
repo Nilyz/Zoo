@@ -1,6 +1,6 @@
 
-
-const map = L.map('map').setView([40.441232, -3.7000116], 12); // Coordenadas de MasterD
+// Coordenadas de MasterD
+const map = L.map('map').setView([40.441232, -3.7000116], 12); 
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,

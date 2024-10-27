@@ -9,9 +9,9 @@ function showSlide() {
             slide.classList.add('active');
         }
     });
-    currentSlide = (currentSlide + 1) % slide.length; // Avanza al siguiente slide
+    currentSlide = (currentSlide + 1) % slide.length; 
 }
 
-showSlide(); // Muestra la primera imagen
+showSlide(); 
 
 setInterval(showSlide, 5000);

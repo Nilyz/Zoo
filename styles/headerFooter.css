@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
     --color-green: #37643b;
@@ -31,20 +31,19 @@ a {
     text-decoration: none;
     color: rgb(24, 24, 24);
 }
-p{
+p {
     margin: 0;
 }
-img{
+img {
     aspect-ratio: 1/1;
     object-fit: cover;
 }
-hr{
+hr {
     opacity: 1;
     border-radius: 10px;
 }
-.row{
-    --bs-gutter-x: 0; 
-
+.row {
+    --bs-gutter-x: 0;
 }
 
 /*------------ HEADER ------------*/
@@ -101,10 +100,10 @@ nav {
     color: var(--color-green2);
 }
 .navbar-nav .nav-link.active {
-    color: var(--color-green); 
-    font-weight: bold; 
+    color: var(--color-green);
+    font-weight: bold;
 }
-.catalogueLink p{
+.catalogueLink p {
     font-size: 24px;
 }
 .catalogueMenu {
@@ -246,7 +245,7 @@ footer {
         font-size: 20px;
     }
     .navbar-nav .nav-link.active {
-        color: var(--color-green2); 
+        color: var(--color-green2);
     }
     .navbar__icon {
         margin-right: 0px;
@@ -279,9 +278,7 @@ footer {
     }
     .dropdown-menu {
         background-color: var(--color-beige);
-        min-width: none;
         width: 800px;
-        display: none;
     }
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         top: 61px;
@@ -331,7 +328,6 @@ footer {
     }
     .footerLogo__name {
         font-size: 26px;
-
     }
     .footerLink {
         display: flex;
