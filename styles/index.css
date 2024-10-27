@@ -23,15 +23,16 @@
     margin-bottom: 150px;
     margin-top: 150px;
     color: var(--color-green);
+    gap: 50px;
 }
 .aboutUs__info{
-    height: 100%;
+    height: 500px;
     padding: 50px;
     background-color: var(--color-green2);
     border-radius: 20px;
 }
 .aboutUs__img{
-    height: 100%;
+    height: 500px;
     background-color: var(--color-yellow);
     overflow: hidden;
     border-radius: 20px;
