@@ -1,0 +1,96 @@
+main{
+    padding: 100px 0 200px 0;
+}
+
+
+.title{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+.subtitle{
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.gallerySection{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100px;
+    margin: auto;
+    margin-top: 100px;
+}
+.photoCont{
+    height: 400px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.photoCont1{
+    background-image: url(../img/animales/elefantes.jpg);
+}
+.photoCont2{
+    background-image: url(../img/animales/loro.webp);
+    background-position: 10%;
+}
+.photoCont3{
+    background-image: url(../img/animales/panda.jpg);
+}
+.photoCont4{
+    background-image: url(../img/animales/pinguinos.jpg);
+}
+.photoCont5{
+    background-image: url(../img/animales//tigre.avif);
+}
+.photoCont6{
+    background-image: url(../img/animales/tortuga.jpg);
+}
+.photoCont7{
+    background-image: url(../img/animales/zebra.jpg);
+}
+.photoCont8{
+    background-image: url(../img/animales/leon.jpg);
+}   
+.photoCont9{
+    background-image: url(../img/animales/hipopotamo.jpg);
+}
+.photoCont10{
+    background-image: url(../img/animales/jirafa.jpg);
+}
+.photoCont11{
+    background-image: url(../img/animales/koala.jpg);
+}
+
+
+.photoCont__info{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+
+}
+.photoCont__info h2{
+    font-size: 20px;
+    text-align: center;
+}
+.photoCont:hover .photoCont__info{
+    opacity: 1;
+    cursor: pointer;
+}

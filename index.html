@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Zoo Madrid</title>
+        <link rel="icon" href="img/panda-svgrepo-com.svg" type="image/png">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/headerFooter.css" />
+        <link rel="stylesheet" href="styles/index.css">
+        <script src="js/index.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div
+                    class="container-fluid d-flex justify-content-between align-items-center"
+                >
+                    <a
+                        class="navbar-brand d-flex align-items-center justify-content-center"
+                        href="index.html"
+                    >
+                        <img
+                            src="img/panda-svgrepo-com.svg"
+                            alt="logo"
+                            class="me-1"
+                        />
+                        <span
+                            class="navbar-brand mb-0 h1 d-none d-lg-block d-md-block"
+                            >Zoo Madrid</span
+                        >
+                    </a>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul
+                            class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-space align-items-center"
+                        >
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="index.html"
+                                    >Inicio</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/galeria.html"
+                                    >Galería</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contacto.html"
+                                    >Contacto</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="d-flex align-items-center justify-content-center navbar__links"
+                    >
+                        <button
+                            class="navbar-toggler navbar__toggle"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <img
+                                src="img/menu-svgrepo-com.svg"
+                                alt="Menu"
+                                class="navbar__toggle--img"
+                            />
+                        </button>
+                        <a href="index.html" class="nav-link navbar__icon">
+                            <img
+                                src="img/user-svgrepo-com.svg"
+                                alt="user"
+                                class="navbar__icon--user"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="img/animales/panda.jpg" alt="" class="slide">
+                <img src="img/animales/tigre.avif" alt="" class="slide">
+                <img src="img/animales/pez.jpg" alt="" class="slide">
+                <img src="img/animales/elefantes.jpg" alt="" class="slide">
+                <img src="img/animales/koala.jpg" alt="" class="slide">
+            </div>
+            <div class="row d-flex justify-content-around aboutUs">
+                <div class="col-lg-6 order-lg-2 aboutUs__img">
+                    <img src="img/animales/tigre.avif" alt="" class="img-fluid"> <!-- Agrega img-fluid para que la imagen sea responsiva -->
+                </div>
+                <div class="col-lg-5 order-lg-1 aboutUs__info">
+                    <h2>Zoo Madrid: Un Refugio de Biodiversidad</h2>
+                    <p>Bienvenidos a Zoo Madrid, donde la naturaleza cobra vida. Nuestro zoológico se dedica a la conservación y educación sobre la fauna silvestre. Con hábitats que recrean entornos naturales, ofrecemos a nuestros visitantes la oportunidad de conocer y aprender sobre diversas especies de todo el mundo.</p>
+                    <button>Visítanos</button>
+                </div>
+
+            </div>
+            
+            <div class="row d-flex justify-content-around cardsCont">
+                <div class="col-lg-2 card">
+                    <img src="img/animales/panda.jpg" alt="" />
+                    <h3>Mamíferos</h3>
+                    <p>Descubre la diversidad de mamíferos en nuestro zoológico.</p>
+                </div>
+                <div class="col-lg-2 card">
+                    <img src="img/animales/loro.webp" alt="" />
+                    <h3>Aves</h3>
+                    <p>Descubre la belleza de las aves exóticas en nuestro aviario, donde cada plumaje cuenta una historia.</p>
+                </div>
+                <div class="col-lg-2 card">
+                    <img src="img/animales/serpiente.jpeg" alt="" />
+                    <h3>Reptiles</h3>
+                    <p>Explora el hábitat de los reptiles y conoce a las serpientes y lagartos.</p>
+                </div>
+                <div class="col-lg-2 card">
+                    <img src="img/animales/pez.jpg" alt="" />
+                    <h3>Peces</h3>
+                    <p>Sumérgete en el mundo de los peces y descubre a las especies marinas.</p>
+                </div>
+            </div>
+            <div class="ubication">
+                <div class="ubication__title">
+                    <a href="https://maps.app.goo.gl/72auE2xf7QyFWKfT6"
+                        ><p>
+                            Ubícanos en:
+                            <span>Casa de Campo, s/n, Moncloa - Aravaca, 28011 Madrid</span>
+                        </p></a
+                    >
+                </div>
+                <div class="ubication__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.984549728203!2d-3.763438923598095!3d40.40919305609737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41880ac6b6041d%3A0x89911a7043a52183!2sZoo%20Aquarium%20de%20Madrid!5e0!3m2!1ses!2ses!4v1730053848198!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="subscribe__img">
+                    <img src="img/animales/tigre.avif" alt="" />
+                </div>
+                <div class="subscribe__info">
+                    <h3 class="subscribe__title">
+                        Suscríbete para recibir las últimas noticias
+                    </h3>
+                    <hr />
+                    <p>¡Mantente al día con nuestras novedades!</p>
+                    <div class="subscribe__button">
+                        <button>SUSCRIBIRME</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div
+                    class="row d-flex justify-content-between align-items-center footerMain"
+                >
+                    <div class="col-lg-4 text-center footerLogo">
+                        <img
+                            src="img/panda-svgrepo-com.svg"
+                            alt="logo"
+                            class="footerLogo__img"
+                        />
+                        <span class="footerLogo__name">Zoo Madrid</span>
+                    </div>
+                    <div class="col-lg-3 footerLink">
+                        <ul class="list-unstyled">
+                            <li><a class="nav-link" href="#">Catálogo</a></li>
+                            <li><a class="nav-link" href="#">Blog</a></li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="nav-link" href="#">Contáctanos</a>
+                            </li>
+                            <li><a class="nav-link" href="#">Soporte</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-lg-3 d-flex justify-content-around align-items-center footerSocial"
+                    >
+                        <img
+                            src="img/ic--baseline-tiktok.svg"
+                            alt="instagram"
+                            class="footerSocial__img"
+                        />
+                        <img
+                            src="img/prime--twitter.svg"
+                            alt="facebook"
+                            class="footerSocial__img"
+                        />
+                        <img
+                            src="img/facebook-svgrepo-com.svg"
+                            alt="X"
+                            class="footerSocial__img"
+                        />
+                        <img
+                            src="img/instagram-svgrepo-com.svg"
+                            alt="tik tok"
+                            class="footerSocial__img"
+                        />
+                    </div>
+                </div>
+                <div class="footerPolicy">
+                    <a class="nav-link" href="#">Política de privacidad</a>
+                    <hr />
+                    <a class="nav-link" href="#">Términos y condiciones</a>
+                </div>
+                <div class="footerCopy">
+                    <p>
+                        © 2024 Zoo Madrid. Todos los derechos
+                        reservados.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
